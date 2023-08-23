@@ -2808,6 +2808,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: center
 	}
 
 		ul.icons li {
@@ -3239,8 +3240,9 @@ input, select, textarea {
 			background-color: #261c3e;
 		}
 
+		/* main background color */
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #5e42a6; 
 		}
 
 		.wrapper.style1-alt {
@@ -3538,6 +3540,8 @@ input, select, textarea {
 	}
 
 		#sidebar > .inner {
+			padding-left: 10%;
+			padding-right: 10%;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3549,7 +3553,7 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: space-between;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
